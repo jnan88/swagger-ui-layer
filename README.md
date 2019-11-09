@@ -1,5 +1,6 @@
 # swagger-ui-layer
 
+由于原项目无法获得更新，所以copy到此
 ------
 
 swagger-ui-layer 是一个基于swagger的前端UI实现,是为了替换了默认的swagger-ui,让生成的文档更加友好和美观
@@ -26,7 +27,7 @@ swagger-ui-layer 要依赖swagger的注解功能，因为swagger-ui-layer 仅仅
 
 首先需要在你的 `pom.xml` 中引入`swagger` 和 `swagger-ui-layer` 最新版的jar包
 
-swagger-ui-layer 最新版jar包地址：http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.github.caspar-chen%22%20AND%20a%3A%22swagger-ui-layer%22
+swagger-ui-layer 最新版jar包地址：http://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22com.github.jnan88%22%20AND%20a%3A%22swagger-ui-layer%22
 ```xml
 <dependency>
     <groupId>io.springfox</groupId>
@@ -34,7 +35,7 @@ swagger-ui-layer 最新版jar包地址：http://search.maven.org/#search%7Cgav%7
     <version>2.2.2</version>
 </dependency>
 <dependency>
-  <groupId>com.github.caspar-chen</groupId>
+  <groupId>com.github.jnan88</groupId>
   <artifactId>swagger-ui-layer</artifactId>
   <version>${last-version}</version>
 </dependency>
@@ -90,5 +91,5 @@ ResponseHeader
 ### License
 Apache License 2.0
 
-### 源码维护地址
+### 原始-源码维护地址
 * Github ： https://github.com/caspar-chen/swagger-ui-layer

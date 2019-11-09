@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.github.caspar-chen</groupId>
+	<groupId>com.github.jnan88</groupId>
 	<artifactId>swagger-ui-layer</artifactId>
-	<version>1.1.3</version>
+	<version>2.0.0</version>
 	<packaging>jar</packaging>
 	<name>${project.artifactId}</name>
-	<url>https://github.com/caspar-chen/swagger-ui-layer</url>
+	<url>https://github.com/jnan88/swagger-ui-layer</url>
     <description>Pretty swagger ui api documentation</description>
     
 	<properties>
@@ -17,21 +17,21 @@
 	<licenses>
 		<license>
 			<name>Apache License</name>
-			<url>https://github.com/caspar-chen/swagger-ui-layer/blob/master/LICENSE</url>
+			<url>https://github.com/jnan88/swagger-ui-layer/blob/master/LICENSE</url>
 		</license>
 	</licenses>
 
 	<scm>
-		<url>https://github.com/caspar-chen/swagger-ui-layer</url>
-		<connection>scm:git:https://github.com/caspar-chen/swagger-ui-layer.git</connection>
-		<developerConnection>https://github.com/caspar-chen/swagger-ui-layer</developerConnection>
+		<url>https://github.com/jnan88/swagger-ui-layer</url>
+		<connection>scm:git:https://github.com/jnan88/swagger-ui-layer.git</connection>
+		<developerConnection>https://github.com/jnan88/swagger-ui-layer</developerConnection>
 	</scm>
 
 	<developers>
 		<developer>
-			<name>caspar.chen</name>
-			<email>xmlhttprequest@163.com</email>
-			<url>https://github.com/caspar-chen</url>
+			<name>jnan88</name>
+			<email>jnan88@qq.com</email>
+			<url>https://github.com/jnan88</url>
 			<timezone>+8</timezone>
 		</developer>
 	</developers>
@@ -100,11 +100,11 @@
 			</build>
 			<distributionManagement>
 				<snapshotRepository>
-					<id>ossrh</id>
+					<id>ossrh-jnan88</id>
 					<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 				</snapshotRepository>
 				<repository>
-					<id>ossrh</id>
+					<id>ossrh-jnan88</id>
 					<name>Maven Central Staging Repository</name>
 					<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 				</repository>
